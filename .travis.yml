@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - "node"
+
+cache: npm
+
+install:
+  - npm install
+
+script:
+  - npm run build
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: surge
+  project: ./dist/
