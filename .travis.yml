@@ -19,3 +19,4 @@ deploy:
   provider: surge
   project: ./dist/
   domain: petroivankiv.surge.sh
+  skip_cleanup: true
