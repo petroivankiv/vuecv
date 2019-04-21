@@ -7,9 +7,19 @@
         <CvSection :title="history.title" :icon="history.icon" :items="history.items"/>
         <CvSection :title="education.title" :icon="education.icon" :items="education.items"/>
         <CvSection :title="courses.title" :icon="courses.icon" :items="courses.items"/>
-        <CvSection :title="certifications.title" :icon="certifications.icon" :items="certifications.items"/>
+        <CvSection
+          :title="certifications.title"
+          :icon="certifications.icon"
+          :items="certifications.items"
+        />
       </section>
-      <aside>this is an aside</aside>
+      <aside>
+        <Details/>
+        <Links/>
+        <Skills/>
+        <Languages/>
+        <Hobbies/>
+      </aside>
     </div>
   </div>
 </template>
@@ -17,12 +27,22 @@
 <script>
 import Header from "./components/Header.vue";
 import CvSection from "./components/CvSection.vue";
+import Details from "./components/Details.vue";
+import Links from "./components/Links.vue";
+import Skills from "./components/Skills.vue";
+import Languages from "./components/Languages.vue";
+import Hobbies from "./components/Hobbies.vue";
 
 export default {
   name: "app",
   components: {
     Header,
-    CvSection
+    CvSection,
+    Details,
+    Links,
+    Skills,
+    Languages,
+    Hobbies
   },
   computed: {
     profile: function() {
@@ -125,7 +145,7 @@ export default {
           }
         ]
       };
-    },
+    }
   }
 };
 </script>
