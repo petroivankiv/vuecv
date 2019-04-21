@@ -26,9 +26,11 @@ section {
   padding: 10px 0 5px;
 }
 .title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
+
+p { font-size: 14px; }
 
 .time-desc { color: grey; font-size: 12px; }
 </style>
