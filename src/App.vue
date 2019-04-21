@@ -54,7 +54,7 @@ export default {
             title: "Elecrical Engineer at ZPUE Ukraine LLC, Ivano-Frankivs",
             timeDesc: "October 2013 - November 2016",
             description:
-              "Executable function: import of electrical equipment, electric project for " +
+              "Executable function: import of electrical equipment, electric project " +
               "for different construction objects, communication with customers."
           },
           {
@@ -62,7 +62,7 @@ export default {
             title: "Elecrical Engineer at Electric Group LLC, Ivano-Frankivs",
             timeDesc: "June 2011 - October 2013",
             description:
-              "Executable function: electric project for " +
+              "Executable function: electric project " +
               "for different construction objects, communication with customers."
           }
         ]
