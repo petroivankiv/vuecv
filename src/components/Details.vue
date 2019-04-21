@@ -23,6 +23,6 @@ div {
 }
 
 span { line-height: 1.5; }
-span:first-of-type { font-weight: bold; }
+span:first-of-type { font-weight: bold; margin-bottom: 5px; }
 span:last-of-type { color: blue; }
 </style>

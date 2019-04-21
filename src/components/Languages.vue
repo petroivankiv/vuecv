@@ -42,5 +42,6 @@ span {
 
 span:first-of-type {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 </style>
