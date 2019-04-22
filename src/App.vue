@@ -53,7 +53,7 @@ export default {
           {
             id: 1,
             description:
-              "Passionated front end developer with 2+ year of experiance. " +
+              "Passionated front end developer with 3+ year of experiance. " +
               "Self-motivated, sensible, sosiable, a good team player"
           }
         ]
@@ -66,12 +66,12 @@ export default {
         items: [
           {
             id: 1,
-            title: "Front End Developer at Softserve, Ivano-Frankivs",
+            title: "Front End Developer at Softserve, Ivano-Frankivsk",
             timeDesc: "November 2016 - Present"
           },
           {
             id: 2,
-            title: "Elecrical Engineer at ZPUE Ukraine LLC, Ivano-Frankivs",
+            title: "Elecrical Engineer at ZPUE Ukraine LLC, Ivano-Frankivsk",
             timeDesc: "October 2013 - November 2016",
             description:
               "Executable function: import of electrical equipment, electric project " +
@@ -79,7 +79,7 @@ export default {
           },
           {
             id: 3,
-            title: "Elecrical Engineer at Electric Group LLC, Ivano-Frankivs",
+            title: "Elecrical Engineer at Electric Group LLC, Ivano-Frankivsk",
             timeDesc: "June 2011 - October 2013",
             description:
               "Executable function: electric project " +
