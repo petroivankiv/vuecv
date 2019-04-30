@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header name="Petro Ivankiv" position="Front End Developer"/>
+    <Header name="Petro Ivankiv" position="Frontend Developer"/>
     <div class="content">
       <section>
         <CvSection :title="profile.title" :icon="profile.icon" :items="profile.items"/>
@@ -53,7 +53,7 @@ export default {
           {
             id: 1,
             description:
-              "Passionated front end developer with 3+ year of experiance. " +
+              "Passionated frontend developer with 3+ year of experiance. " +
               "Self-motivated, sensible, sosiable, a good team player"
           }
         ]
@@ -66,7 +66,7 @@ export default {
         items: [
           {
             id: 1,
-            title: "Front End Developer at Softserve, Ivano-Frankivsk",
+            title: "Frontend Developer at Softserve, Ivano-Frankivsk",
             timeDesc: "November 2016 - Present"
           },
           {
